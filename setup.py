@@ -32,7 +32,8 @@ setup(
     package_data={
         'cupy': ['carray.cuh'],
     },
-    install_requires=['nose',
+    install_requires=['filelock',
+                      'nose',
                       'numpy',
                       'protobuf',
                       'six>=1.9.0'],
